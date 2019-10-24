@@ -41,6 +41,14 @@ body {
 .coll__ {
     margin-bottom: 10px;
 }
+.coll__a{
+  text-decoration: none;
+  color: #000000;
+}
+.coll__a:hover{
+  text-decoration: none;
+  color: #000000;
+}
 
 .bayer__logo__01 {
     float: left;
@@ -86,8 +94,13 @@ td{
 }
 .footer__text_04 {
     font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
 }
-
+.footer__text_04:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
 
 
 .text__{
@@ -129,9 +142,29 @@ td{
 }
 
 .whats{
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
+.questions__block{
+  padding-top: 10px;
+  background-color: #ff9633;
+}
+.questions__block a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+.questions__block a:hover{
+  opacity: 0.9;
+  color: #ffffff;
+}
+
+.img__hover:hover {
+  transform: scale(1.1); /* Увеличиваем масштаб */
+ }
+ .img__hover{
+  transition: 0.5s;
+ }
 
 ul {
   padding: 0;
