@@ -1,3 +1,6 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
 .header {
     background-color: #FF9B04;
 }
@@ -13,7 +16,7 @@
     padding-bottom: 100px;
 }
 .txt__1 {
-    font-size: 32px;
+    font-size: 30px;
 }
 .glavimg {
     float: right;
@@ -108,3 +111,7 @@ td{
   height: auto;
   padding: 50px 0 0 0px;
 }
+
+
+
+
